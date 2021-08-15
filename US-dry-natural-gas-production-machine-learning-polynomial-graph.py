@@ -16,7 +16,7 @@ logging.basicConfig(
 year = oil_years.years
 productions = oil_production.production
 
-mymodel = numpy.poly1d(numpy.polyfit(year, productions, 57))
+mymodel = numpy.poly1d(numpy.polyfit(year, productions, 18))
 
 myline = numpy.linspace(2002, 2021, 100)
 
